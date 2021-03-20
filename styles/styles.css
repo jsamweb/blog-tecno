@@ -1,4 +1,5 @@
 :root {
+    --basic-black: #000;
     --header-color: #47cfac;
     font-family: 'Poppins', sans-serif;
   }
@@ -45,12 +46,15 @@ nav{
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
+.header-logo a{
+    width: fit-content;
+}
 nav .header-logo{
+    width: fit-content;
     display: flex;
     align-items: center;
 }
 nav .header-logo img{
-    
     margin-left: 1.5rem;
     width: 90px;
 
@@ -66,7 +70,7 @@ nav .header-button{
 
 }
 
-nav .header-button__a{
+nav .header-button a{
     width: fit-content;
     display: flex;
     align-items: center;
@@ -75,6 +79,23 @@ nav .header-button__a{
     color: black;
     margin-right: 2rem;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: 500;
 
+}
+.main{
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
+.main-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/img/Cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* MAIN */
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr ;
 }
