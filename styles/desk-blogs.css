@@ -107,7 +107,7 @@ nav .header-button a{
     grid-column: 1;
     width: 90%;
     height: auto;
-    background-image: url('assets/img/main-news-img.png');
+    background-image: url('./assets/img/main-news-img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
