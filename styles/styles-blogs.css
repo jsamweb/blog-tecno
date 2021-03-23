@@ -109,7 +109,7 @@ nav .header-button a{
     height: 35rem;
     min-height: 25rem;
     max-height: 50rem;
-    background-image: url('/assets/img/main-news-img.png');
+    background-image: url('../assets/img/main-news-img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
