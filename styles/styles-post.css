@@ -83,7 +83,7 @@ nav .header-button a{
     font-weight: 500;
     margin-right: 2rem;
 }
-.blogs-main{
+/* .blogs-main{
     display: grid;
 }
 .blogs-news{
@@ -96,8 +96,8 @@ nav .header-button a{
     grid-template-rows: 2fr;
     font-size: 2.3rem;
 
-}
-.blogs-img-news{
+} */
+/* .blogs-img-news{
     grid-column: 1;
 }
 .blogs-img-news img{
@@ -127,7 +127,7 @@ nav .header-button a{
     padding: 1rem 3rem;
     margin: 3rem 0;
 
-}
+} */
 /* MAIN */
 .post-img{
     height: 500px;

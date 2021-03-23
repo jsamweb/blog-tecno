@@ -14,6 +14,10 @@ body{
     right: 0;
     left: 0;
 }
+.grid-container-title{
+    max-width: 1200px;
+    margin: auto;
+}
 .grid-container{
     max-width: 980px;
     margin: auto;
@@ -99,13 +103,16 @@ nav .header-button a{
     font-size: 2.3rem;
 
 }
-.blogs-img-news{
+.blogs-img{
     grid-column: 1;
-}
-.blogs-img-news img{
     width: 90%;
+    height: auto;
+    background-image: url('/assets/img/main-news-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 .blogs-info-news{
     display: flex;
     flex-direction: column;
