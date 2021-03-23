@@ -5,31 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" media="(min-width: 550px)" href="styles/desk.css" />
+    <link rel="stylesheet" href="styles/styles-profile.css">
+    <link rel="stylesheet" media="(min-width: 550px)" href="styles/tablet-profile.css" />
+    <link rel="stylesheet" media="(min-width: 800px)" href="styles/desk-profile.css" />
     <link rel="stylesheet" href="styles/font/flaticon.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap" rel="stylesheet">
 </head>
-</head>
 <body>
     <header>
-        <section>
-            <a href="">Twitter</a>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Linkedin</a>
-            <a href="">Youtube</a>
+        <section class="header-social">
+            <div class="header-social__icons">
+                <a href="https://twitter.com/"><span class="fimanager flaticon-095-twitter"></span></a>
+                <a href="https://facebook.com/"><span class="fimanager flaticon-023-facebook"></span></a>
+                <a href="https://instagram.com/"><span class="fimanager flaticon-044-instagram"></span></a>
+                <a href="https://linkedin.com/"><span class="fimanager flaticon-052-linkedin"></span></a>
+                <a href="https://youtube.com/"><span class="fimanager flaticon-116-youtube"></span></a> 
+            </div>
         </section>
         <nav>
-            <section>
-                <a href="#">Logo</a>
+            <section class="header-logo">
+                <a href="index.html"><img src="assets/img/logo-blog.png" alt="Logo"></a>
             </section>
-            <section>
-                <a href="profile.html">Sobre mí</a>
+            <section class="header-button">
+                <a href="index.html">Inicio</a>
+
+                <a href="blogs.html">Blogs</a>
             </section>
         </nav>
     </header>
-    
+    <main>
+        <section class=" blogs-main blogs-news">
+            <div class=" blogs-title-news">
+                    <h3>Mi Perfil</h3>
+                    <div class="blogs-img">
+                    </div>
+                <div class="blogs-info-news">
+                    <h2>Pepe Ronilo</h2>
+                    <p>Email: <br> examples@email.com</p>
+                    <p class="blogs-info-news__telefono">Telefono: <br> 666 333 222</p>
+                    <p class="blogs-info-news__parrafo">RSS: <br> @example</p>
+                    <!-- <a class="blogs-news-button" href="post.html">Leer más </a> -->
+                </div>
+            </div>
+            <section class="contact-section">
+                <div>
+                    <img src="assets/img/like.png" alt="">
+                    <div class="contact-section-left">
+                    <a href="#">Me gusta</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/newsletter.png" alt="">
+                    <div class="contact-section-right">
+                        <a href="#">Newsletter</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </section>
+        </section>    
+    </main>
+    <footer>
+        <p> jsam.web | copyright 2021</p>
+    </footer>
+
 </body>
 </html>
