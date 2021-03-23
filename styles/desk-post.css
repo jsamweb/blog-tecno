@@ -131,7 +131,7 @@ nav .header-button a{
 /* MAIN */
 .post-img{
     height: 500px;
-    background-image: url('/assets/img/post-1.png');
+    background-image: url('../assets/img/post-1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
