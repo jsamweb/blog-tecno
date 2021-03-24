@@ -154,7 +154,33 @@ margin-bottom: 4rem;
     grid-column: 1;
 
 } */
-
+/* .blogs-post{
+    padding: 0 5rem 4rem;
+} */
+.blogs-post h3{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.blogs-post-container{
+    display: inline-block;
+    /* padding-left: 1rem; */
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+.blogs-post-container img{
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.56);
+}
+.blogs-post .blog-post-container__title{
+    font-size: 2rem;
+    border: transparent
+}
+.blogs-post-container p{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
 
 
 

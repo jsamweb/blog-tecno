@@ -12,6 +12,7 @@ body{
     bottom: 0;
     right: 0;
     left: 0;
+    box-sizing: border-box;
 }
 .grid-container-title{
     max-width: 1200px;
@@ -19,7 +20,7 @@ body{
 }
 .grid-container{
     max-width: 980px;
-    margin: auto;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -156,7 +157,37 @@ nav .header-button a{
     grid-column: 1;
 
 } */
+.blogs-post{
+    padding: 0 5rem 4rem;
+}
 
+.blogs-post h3{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.blogs-post-container{
+    display: inline-block;
+    max-width: 33%;
+}
+.blogs-post-container img{
+    width: 90%;
+    margin-left: 1rem;
+
+}
+.blogs-post .blog-post-container__title{
+    font-size: 2rem;
+    border: transparent
+    
+}
+.blogs-post-container p{
+    margin: auto;
+    margin-bottom: 3.5rem;
+    font-size: 1.6rem;
+    width: 90%;
+}
 
 
 
